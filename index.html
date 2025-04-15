@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Muvvala Pranav, a passionate learner and tech enthusiast from Andhra Pradesh but who grew up mostly in Faridabad. I love coding and exploring new technologies. I am especially interested in Virtual reality.</p>
+        <img src="Images/Profile.png" alt="Profile Picture" class="photo">
+        <img src="Images/local1.png" alt="Local Picture 1" class="photo">
+        <img src="Images/local2.png" alt="Local Picture 2" class="photo">
+    </section>
+
+    <section id="education">
+        <h2>Education & Achievements</h2>
+        <p>I studied at MVN Faridabad till 8th standard and in NSM Vijaywada till 10th and in HVS Vijaywada till 12th, IIIT Hyderabad, and I'm currently pursuing Btech degree. I have won some awards in Karate and in Abacus.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Advanced:</strong> HTML, CSS, JavaScript</li>
+            <li><strong>Intermediate:</strong> Python, Git, SQL, C</li>
+            <li><strong>Beginner:</strong> Node.js, C++</li>
+        </ul>
+    </section>
+
+    <section id="cv">
+        <h2>Download My CV</h2>
+        <a href="cv.pdf" target="_blank">Click here to view my CV (PDF)</a>
+    </section>
+
+    <section id="analyzer">
+        <h2>Text Analyzer</h2>
+        <textarea id="textInput" rows="20" cols="100" placeholder="Paste 10,000+ words here..."></textarea><br>
+        <button onclick="analyzeText()">Analyze</button>
+        <pre id="output"></pre>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
